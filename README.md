@@ -85,5 +85,7 @@ Out-of-Sample Root Mean Squared Error (RMSE): 0.6445
 
 In-sample Root Mean Squared Error (RMSE): 0.8342
 
-To conclude based on the RMSE values above, we can see that the model performs quite a bit better on in-sample data versus out-of-sample data. As shown in the chart above, while the model seems to capture some of the direction of the actual CAD/JPY returns, the model fails to accurately predict the actual returns.
+To conclude based on the RMSE values above, we can see that the model actually performed better on the out-of-sample data than the in-sample data. As the amount of out-of-sample data we use on this model increases, we should expect the out-of-sample RMSE to eventually become higher than the in-sample RMSE.
+
+As shown in the chart above, while the model seems to capture some of the direction of the actual CAD/JPY returns, the model fails to accurately predict the actual returns.
 
